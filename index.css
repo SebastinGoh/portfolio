@@ -1,0 +1,184 @@
+/* General Settings for all page elements*/
+*{
+	font-family: Raleway;
+	padding: 0px;
+	margin: 0px;
+	font-size: 25px;
+}
+a {
+	text-decoration:none;
+	color:inherit;
+}
+.transparent{
+	background:rgba(1,1,1,0.3);
+}
+body, html{
+    height: 100%;
+}
+/*Colour Scheme from https://color.adobe.com/create/color-wheel/ */
+.primaryone{
+	color: #098AB2;
+}
+.backgroundprimaryone{
+	background-color: #098AB2;
+}
+.primarytwo{
+	color: #0A5065;
+}
+.backgroundprimarytwo{
+	background-color: #0A5065;
+}
+.primarythree{
+	color: #26CBFE;
+}
+.backgroundprimarythree{
+	background-color: #26CBFE;
+}
+.secondaryone{
+	color: #653300;
+}
+.backgroundsecondaryone{
+	background-color: #653300;
+}
+.secondarytwo{
+	color: #B25E09;
+}
+.backgroundsecondarytwo{
+	background-color: #B25E09;
+}
+.textwhite{
+	color: #FEFEFA;
+}
+.backgroundwhite{
+	background-color: #FEFEFA;
+}
+
+/*General Layout Styling for index.html & other pages*/
+header{
+	text-align: center;
+	margin-top:53px;
+}
+.headertext{
+	font-size:100px;
+	padding:100px 0px;
+}
+.headericon{
+	font-size:50px;
+	padding:55px 0px 10px 0px;
+}
+nav{
+	position: fixed;
+	top:0;
+	left:0;
+	width:100%;
+	overflow: hidden;
+	text-align:center;
+}
+ul.namebar{
+	list-style-type:none;
+	position:absolute;
+	top:12px;
+	left:0;
+}
+ul.namebar>li{
+	position:relative;
+	top:0;
+	left:0;
+	display:inline;
+	padding: 0px 20px;
+	font-weight:bold;
+}
+ul.navbar{
+	list-style-type:none;
+	margin:40px 0px;
+	text-align:left;
+	font-weight:bold;
+}
+ul.navbar>li{
+	display:inline;
+	padding: 0px 90px;
+}
+ul.conbar{
+	list-style-type:none;
+	position:absolute;
+	top:8px;
+	left:90%;
+}
+ul.conbar>li{
+	position:relative;
+	top:0;
+	left:0;
+	display:inline;
+	padding: 0px 20px;
+}
+section{
+}
+.sectiontitle{
+	font-size:50px;
+	padding:55px;
+}
+.center{
+	text-align:center;
+}
+.right{
+	text-align:right;
+}
+.sectiontext{
+	text-align:center;
+}
+.lasttext{
+	padding-bottom:55px;
+}
+footer{
+	margin:50px 0px;
+}
+.footertext{
+	text-align: center;
+	font-size: 40px;
+}
+/*Styling for photo.html*/
+.draftcover{
+	background-image: url("../images/draftcover.jpg");
+}
+.photocover{
+	background-image: url("../images/photocover.jpg");
+}
+.photocovertext{
+	font-size: 115px;
+	padding: 155px 0px 33px 0px;
+}
+/*Styling for illustration.html*/
+.illustrationcover{
+	background-image: url("../images/illustrationcover.jpg");
+}
+.illustrationcovertext{
+	font-family: Lobster;
+	font-size: 150px;
+	text-align:left;
+	padding: 50px 25px 170px 20px;
+}
+.aboutcover{
+	background-image: url("../images/aboutcover.jpg");
+}
+/*Styling for parallex photos*/
+.parallex {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+	margin-top: 0px;
+	height:100%;
+    background-position: center;
+    background-size: cover;	
+}
+/*Styling for sticky header*/
+section {
+	transition: 0.5s;
+}
+.sticky {
+	position: fixed;
+	top: 110px;
+	width: 100%;
+}
+.sticky>p{
+	font-size: 30px;
+	padding: 20px 0px 0px 90px;
+}
